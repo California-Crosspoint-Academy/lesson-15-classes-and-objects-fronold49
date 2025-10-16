@@ -1,0 +1,38 @@
+These basic notes are drawn directly from the lecture excerpts provided, covering key concepts related to creating and storing objects (Instantiation).
+
+### I. Fundamental Concepts and Structure
+
+   Class: A class serves as the blueprint for an object. Classes are NOT objects.
+   Object (Instantiation): Objects are instances created from the class blueprint. The process of creating and storing objects is called instantiation.
+   Naming Conventions:
+       The name of a class (e.g., `Runner`, `MyClass`) is ALWAYS capitalized.
+       A common name for a class that contains the `main` method is `Runner`.
+   Java Statements: All statements in Java must end with a semicolon (`;`), which is required.
+   Class Signature: A standard format is `public class NameOfClass {}`. The curly braces (`{ }`) indicate where the class code begins and ends.
+
+### III. Creating Objects
+
+   Classes are usually converted into objects using the `main` method.
+   A constructor (e.g., `MyClass()`) is the code that performs the actual building of the object using the class blueprint.
+
+### IV. Code Inside a Class
+
+Inside a class, three types of code are included:
+
+1.  Fields:
+       A set of variables.
+       They are typically declared private, which means that only the object itself can access or change them.
+2.  Constructors:
+       Code responsible for building objects from the class.
+3.  Methods:
+       Code that does something.
+       Getter (Accessor): Code that allows the object to get a variable.
+       Setter (Mutator): Code that allows the object to change a variable.
+       Other methods may be included to perform the necessary actions of the object.
+
+### V. Method vs. Function
+
+Both terms refer to code that performs an action.
+
+   Method: Action code that is located inside an object. Since everything in Java is contained inside objects, Java uses the term methods for action code.
+   Function: Action code that is located outside an object. In languages like Python, where most code is outside objects, the action code is called a function.
